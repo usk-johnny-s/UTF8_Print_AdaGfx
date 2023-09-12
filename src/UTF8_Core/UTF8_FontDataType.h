@@ -1,10 +1,10 @@
 #ifndef _UTF8_FONT_DATA_TYPE_H
 #define _UTF8_FONT_DATA_TYPE_H
-//! @file ../UTF8_FontDataType.h
+//! @file ../src/UTF8_Core/UTF8_FontDataType.h
 //! @brief Font DataType
 //! @note font_filename="./misaki_ttf_2021-05-05/misaki_gothic.ttf",size=8
 //! @note chara_list_filename="chara_list.txt"
-//! @date 2023-09-08 21:15:41.079500
+//! @date 2023-09-12 01:33:01.587692
 
 //! @typedef type_font_box_pos
 //! @brief value type for font_box element (each X0,Y0,X1,Y1)

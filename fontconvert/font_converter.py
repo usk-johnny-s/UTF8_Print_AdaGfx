@@ -8,8 +8,8 @@ import copy
 chara_list_filename = 'chara_list.txt'
 
 # Set output filename
-output_filename_data = '../UTF8_FontData.h'
-output_filename_datatype = '../UTF8_FontDataType.h'
+output_filename_data = '../src/UTF8_Core/UTF8_FontData.h'
+output_filename_datatype = '../src/UTF8_Core/UTF8_FontDataType.h'
 
 # Set Font filename and size
 font_size = 8

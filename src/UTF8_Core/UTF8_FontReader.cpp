@@ -104,12 +104,6 @@ uint32_t UTF8_FontReader::convHarf2Full(uint32_t utf)
         switch(utf8) {
           case 0x20:
             return 0x00003000UL;  // スペース
-          case 0x22:
-            return 0x0000201DUL;  // ダブルクオート
-          case 0x27:
-            return 0x00002019UL;  // シングルクオート
-          case 0x2D:
-            return 0x00002212UL;  // マイナス記号
         }
         return (0x0000FF01UL - 0x00000021UL) + utf8;
       }
